@@ -66,6 +66,10 @@ model.add(tf.layers.dense({inputShape: [1], units: 1}));
 // loss function measures how model is doing. Lower loss meaning improved accuracy
 // optimizer is a function to change the weights.
 
+ //https://www.youtube.com/watch?v=sDv4f4s2SB8
+ // gradient descent ....  is decent.... at estimating parameters.... ! lol
+ 
+  // https://www.youtube.com/watch?v=vMh0zPT0tLI 
 //sgd - Stochastic Gradient Descent
 model.compile({optimizer: 'sgd', loss: 'meanAbsoluteError'});
 
